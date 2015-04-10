@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Simple app to fetch a txt file</title>
+    </head>
+    <body>
+        <h2>simple app to fetch a txt file through a node server to get around CORS</h2>
+        <h2>The data is also available at <a href="/data">/data</a> in JSON</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Kerr Inflow (CFS)</th>
+                    <th>Kerr Outflow (CFS)</th>
+                    <th>Kerr HW Gage Elev (NGVD29)</th>
+                    <th>Kerr DCP Gage Elev (NGVD29)</th>
+                    <th>Gross Gen (MWH)</th>
+                    <th>Kerr Rainfall (inch)</th>
+                    <th>Isl Crk HW Gage Elev (NGVD29)</th>
+                    <th>Isl Crk DCP Gage Elev (NGVD29)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {#data}
+                    <tr>
+                        <td>{date}</td>
+                        <td>{time}</td>
+                        <td>{kerr.inflow}</td>
+                        <td>{kerr.outflow}</td>
+                        <td>{kerr.hwGageElev}</td>
+                        <td>{kerr.dcpGageElev}</td>
+                        <td>{grossGen}</td>
+                        <td>{kerr.rainfall}</td>
+                        <td>{islandCreek.hwGageElev}</td>
+                        <td>{islandCreek.dcpGageElev}</td>
+                    </tr>
+                {/data}
+            </tbody>
+        </table>
+</html>

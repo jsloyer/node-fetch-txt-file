@@ -6,6 +6,10 @@
   },
   "dependencies": {
     "express": "~4.0.0",
-    "request": "*"
+    "request": "*",
+    "underscore": "*",
+    "dustjs-linkedin": "*",
+    "dustjs-helpers": "*",
+    "consolidate": "*"
   }
 }
