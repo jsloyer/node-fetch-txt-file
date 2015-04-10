@@ -16,7 +16,7 @@ Replace myapp name with the name of your app (ex. node-txt-fetcher)
 
 or click the button below
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://github.com/jsloyer/node-fetch-txt-file.git)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/jsloyer/node-fetch-txt-file.git)
 
 
 
